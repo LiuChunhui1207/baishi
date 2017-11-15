@@ -1,0 +1,89 @@
+<!--pages/daily/index.wxml-->
+<view class="zhushou">
+  <view class="zhushou-header">
+    <text class="zhushou-header-text">办事助手</text>
+  </view>
+  <view class="zhushou-container">
+    <view class="zhushou-container-item">
+      <view class="item-left">
+        <text class="item-name">学院电话\n</text>
+        <text class="item-desc">喂，严老师吗？</text>
+      </view>
+      <image 
+        src="../../utils/image/phone.png" 
+        class="image"
+      />
+    </view>
+    <view class="zhushou-container-item" id="right">
+      <view class="item-left">
+        <text class="item-name">办公地点\n</text>
+        <text class="item-desc">又是6楼啊？！</text>
+      </view>
+      <image 
+        src="../../utils/image/location.png" 
+        class="image"
+      />
+    </view>
+  </view>
+  <view class="zhushou-container">
+    <view class="zhushou-container-item">
+      <view class="item-left">
+        <text class="item-name">网上办事\n</text>
+        <text class="item-desc">密码我又忘了～</text>
+      </view>
+      <image 
+        src="../../utils/image/site.png" 
+        class="image"
+      />
+    </view>
+    <view class="zhushou-container-item" id="right">
+      <view class="item-left">
+        <text class="item-name">公众号\n</text>
+        <text class="item-desc">什么鬼推送？？</text>
+      </view>
+      <image 
+        src="../../utils/image/wechat.png" 
+        class="image"
+      />
+    </view>
+  </view>
+
+   <view class="background" />
+
+   <view class="zhushou-header">
+    <text class="zhushou-header-text">在线选课</text>
+  </view>
+
+  <view class="course-header">
+    <text class="course-header-item">最坑课程Top3</text>
+    <text class="course-header-item">最水课程Top3</text>
+  </view>
+
+  <view class="background" />
+
+  <view class="zhushou-header">
+    <text class="zhushou-header-text">课余活动</text>
+    <text class="header-desc">约起来 ></text>
+  </view>
+
+  <view class="hobby-view">
+    <image 
+      src="../../utils/image/basketball.png" 
+      class="hobby-image"
+    />
+    <image 
+      src="../../utils/image/royal.png" 
+      class="hobby-image"
+    />
+    <image 
+      src="../../utils/image/run.png" 
+      class="hobby-image"
+    />
+    <image 
+      src="../../utils/image/travel.png" 
+      class="hobby-image"
+    />
+  </view>
+
+  <view class="background" />
+</view>

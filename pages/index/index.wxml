@@ -1,0 +1,127 @@
+<!--index.wxml-->
+<view class="top-container">
+  <text class="school">信息工程学院</text>
+  <text class="college">\n模式识别与智能系统研究所</text>
+  <view class="avatar-and-name">
+    <image 
+  class="userinfo-avatar" 
+  src="../../utils/image/lrh1.jpg"
+  background-size="cover" />
+  <text class="userinfo-nickname">
+    {{"梁荣华" + " 教授"}}
+  </text>
+  </view>
+
+  <view class="contract">
+    <text>电话：0571-85290530</text>
+    <text> | </text>
+    <text>邮箱：rhliang@zjut.edu.cn</text>
+  </view>
+
+  <view class="background" />
+
+  <view class="category">
+    <view class="item">
+      <image 
+        class="userinfo-avatar" 
+        src="../../utils/image/item1.png"
+        background-size="cover" 
+      />
+      <text class="item-text">\n个人简介</text>
+      <text class="item-desc">\n你想知道的这儿都有</text>
+    </view>
+    <view class="item">
+      <image 
+        class="userinfo-avatar" 
+        src="../../utils/image/item2.png"
+        background-size="cover" 
+      />
+      <text class="item-text">\n研究方向</text>
+      <text class="item-desc">\n一天到晚忙的啥</text>
+    </view>
+    <view class="item">
+      <image 
+        class="userinfo-avatar" 
+        src="../../utils/image/item3.png"
+        background-size="cover" 
+      />
+      <text class="item-text">\n学术成果</text>
+      <text class="item-desc">\n唱一首光辉岁月</text>
+    </view>
+  </view>
+
+  <view class="background" />
+
+  <view class="header">
+    <text class="header-text">师兄师姐有话说</text>
+    <text class="header-desc">更多 ></text>
+  </view>
+  <view class="content">
+    <view class="comment-view">
+      <view class="classname">
+        <image 
+        class="comments-image" 
+        src="../../utils/image/comment1.png"
+        />
+      </view>
+      <view class="comment-text-view">
+        <text class="comments-text">1987年至1994年在中科院长春光学精密机械研</text>
+      </view>
+    </view>
+    <view class="comment-view">
+      <view class="classname">
+        <image 
+        class="comments-image" 
+        src="../../utils/image/comment2.png"
+        />
+      </view>
+      <view class="comment-text-view">
+        <text class="comments-text">1987年至1994年在中科院长春光学精密机械研究所从事科研工作。1998年至22年8月起到浙江</text>
+      </view>
+    </view>
+    <view class="comment-view">
+      <view class="classname">
+        <image 
+        class="comments-image" 
+        src="../../utils/image/comment3.png"
+        />
+      </view>
+      <view class="comment-text-view">
+        <text class="comments-text">1987年至1994年在中科院长春光学精密机械研究所从事科研工作。1998年至22年8月起到浙江</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="background" />
+  
+  <view class="header">
+    <text class="header-text">有问必答</text>
+    <text class="header-desc">更多 ></text>
+  </view>
+  <view class="content">
+    <view class="comment-view">
+      <view class="classname">
+        <image 
+        class="comments-image" 
+        src="../../utils/image/q.png"
+        />
+      </view>
+      <view class="comment-text-view">
+        <text class="comments-text">1987年至1994年在中科院长春光学精密机械研</text>
+      </view>
+    </view>
+    <view class="comment-view">
+      <view class="classname">
+        <image 
+        class="comments-image" 
+        src="../../utils/image/a.png"
+        />
+      </view>
+      <view class="comment-text-view">
+        <text class="comments-text">1987年至1994年在中科院长春光学精密机械研究所从事科研工作。1998年至22年8月起到浙江</text>
+      </view>
+    </view>
+  </view>
+
+
+</view>

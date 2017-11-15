@@ -1,0 +1,8 @@
+/* pages/news/index.wxss */
+.swiperitem {
+  text-align: center;
+}
+
+.slide-image {
+  width: 100%;
+}

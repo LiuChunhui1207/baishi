@@ -1,0 +1,119 @@
+/**index.wxss**/
+.top-container {
+  height: 250rpx;
+  background: #005bae;
+  text-align: center;
+}
+
+.school {
+  color: floralwhite;
+}
+
+.college {
+  font-size: small;
+  color: floralwhite;
+}
+
+.userinfo-avatar {
+  width: 140rpx;
+  height: 140rpx;
+  margin-top: 105rpx;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.userinfo-nickname {
+  font-size: small; 
+  color: black;
+}
+
+.contract {
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+  font-size: x-small;
+  color: darkgray;
+}
+
+.background {
+  background: #ddd;
+  border-top-color: #eee;
+  height: 20rpx;
+  width: 100%;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 220rpx;
+  margin-bottom: 50rpx;
+}
+
+.item {
+  flex: 1;
+  margin-top: -80rpx;
+}
+
+.item-icon {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+
+.item-text {
+  font-size: small;
+}
+
+.item-desc {
+  font-size: xx-small;
+  color: darkgray;
+}
+
+.header {
+  height: 70rpx;
+  border-bottom: 1rpx solid #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text {
+  font-size: small;
+  font-weight: bold;
+  margin-left: 30rpx;
+}
+
+.header-desc {
+  font-size: xx-small;
+  margin-right: 30rpx;
+  color: purple;
+}
+
+.comment-view {
+  flex: 1;
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.comments-image {
+  height: 40rpx;
+  width: 40rpx;
+  margin-left: 30rpx;
+}
+
+.comments-text {
+  font-size: x-small;
+  margin-left: 30rpx;
+}
+
+.comment-text-view {
+  margin-right: 30rpx;
+}
+
+.content {
+  margin-bottom: 20rpx;
+}

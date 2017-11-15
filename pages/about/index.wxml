@@ -1,0 +1,20 @@
+<!--pages/about/index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">
+      {{userInfo.nickName}}    
+    </text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">一个非官方的小程序</text>
+    <text class="user-motto">\n如果你愿意协助开发</text>
+    <text class="user-motto">\n可以帮忙爬一些其他学院的数据</text>
+    <text class="user-motto">\n或去往下面贡献你的代码</text>
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  
+</view>
+<view class="description">
+    <text class="about-description">{{description}}</text>
+  </view>

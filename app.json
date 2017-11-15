@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/index",
+    "pages/daily/index",
+    "pages/about/index",
+    "pages/cv/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#005bae",
+    "navigationBarTitleText": "拜师",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#005bae",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "utils/image/tutor.png",
+        "selectedIconPath": "utils/image/tutorHL.png",
+        "text": "导师"
+      },
+      {
+        "pagePath": "pages/daily/index",
+        "iconPath": "utils/image/course.png",
+        "selectedIconPath": "utils/image/courseHL.png",
+        "text": "日常"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "iconPath": "utils/image/news.png",
+        "selectedIconPath": "utils/image/newsHL.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "iconPath": "utils/image/about.png",
+        "selectedIconPath": "utils/image/aboutHL.png",
+        "text": "关于"
+      }
+    ]
+  }
+}
