@@ -4,7 +4,7 @@
 ***
 #### 2019-06-11 update
 加入本地开发界面，哈哈哈哈哈也不知道老梁会不会揍我～
-<img src="https://github.com/LiuChunhui1207/micro-assistant/blob/master/develop_platform_screen.png" width=650 height=350>
+<img src="https://github.com/LiuChunhui1207/micro-assistant/blob/master/develop_platform_screen.png" width=650 height=400>
 
 ***
 #### 2019-06-12 update
